@@ -1,0 +1,13 @@
+# Verification Checklist
+- [x] Open http://localhost:3000
+- [x] Check Student Dashboard (Header, Greeting "Good evening, Siva", Overview cards, Quick Action chips, AI Avatar)
+- [x] Verify Voice Mode / Voice Assistant modal or page (waveform, avatar, buttons)
+- [x] Check AI Chat (/student/chat) with query "What is my attendance in Physics?" (verify response, pills)
+- [x] Check Language Selector (11 languages) — PASS ✅
+- [x] Verify other routes:
+  - [x] /student/study — PASS ✅
+  - [x] /student/attendance — PASS ✅
+  - [x] /student/timetable — PASS ✅
+  - [x] /parent — PASS ✅
+  - [x] /teacher — PASS ✅
+  - [x] /management — PASS ✅
