@@ -94,6 +94,11 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({
           <span className="text-[11px] font-semibold text-muted-foreground">
             {isAI ? "XYZ AI Assistant" : userProfile.name}
           </span>
+          {isAI && message.provider && (
+            <span className="text-[9px] uppercase tracking-wider px-1.5 py-0.2 rounded bg-primary/10 text-primary font-mono font-medium">
+              {message.provider}
+            </span>
+          )}
           <span className="text-[10px] text-muted-foreground/70">
             {formatTime(message.timestamp)}
           </span>

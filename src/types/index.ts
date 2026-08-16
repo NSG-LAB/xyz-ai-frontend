@@ -42,6 +42,7 @@ export interface ChatMessage {
   sender: "user" | "ai" | "system";
   text: string;
   timestamp: string;
+  provider?: string;
   contextualActions?: ContextualAction[];
   suggestedFollowUps?: string[];
   cards?: {
